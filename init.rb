@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 require 'redmine'
-require File.dirname(__FILE__) + '/lib/redmine_advanced_image/hooks/view_layouts_base_html_head_hook'
+require File.expand_path('../lib/redmine_advanced_image/hooks/view_layouts_base_html_head_hook', __FILE__)
 
 Redmine::Plugin.register :redmine_advancedimage do
 
