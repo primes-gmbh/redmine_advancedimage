@@ -7,7 +7,7 @@ Redmine::Plugin.register :redmine_advancedimage do
 
   name 'Redmine advanced image plugin'
   author '5inf'
-  description 'This plugin provides a macro to display images with subtitles and anotation capabilites an a macro to reference an image from within a wiki page.'
+  description 'This plugin provides a macro to display images with subtitles and anotation capabilites and a macro to reference an image from within a wiki page.'
   version '0.0.4'
   url 'https://github.com/primes-gmbh/redmine_advancedimage'
   author_url 'https://github.com/5inf/'
