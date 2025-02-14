@@ -14,7 +14,7 @@ Redmine::Plugin.register :redmine_advancedimage do
 
     Redmine::WikiFormatting::Macros.register do
     desc <<-DESCRIPTION
-Show an figure consisting of an image with title below and optionally add annotations to the image.
+Show a figure consisting of an image with title below and optionally add annotations to the image.
 The image can be referenced by the {{figurelink}} macro
 Syntax:
 	{{figure(FILENAME[,label=LABEL,title=TITLE,hidetitle=HIDETITLE,width=WIDTH,height=HEIGHT,border=BORDER)
