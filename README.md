@@ -9,14 +9,17 @@ Formula support requires the redmine_latex_mathjax (https://github.com/5inf/redm
 Requirements
 ------------
 
-Redmine 4.1.x
+Redmine 4.1.x, 5.0.x, 5.1.x or 6.0.x
 Other versions are not tested but may work.
 Versions before 4.1 are lacking an API function that this plugin currently uses.
 
 Installation
 ------------
 1. Download archive and extract to /your/path/to/redmine/plugins/
-2. Restart Redmine
+2. (Might be required for Redmine 6.x):
+     mkdir /var/www/redmine/plugin_assets/redmine_latex_mathjax
+     cp -a /your/path/to/redmine/plugins/redmine_latex_mathjax/assets/* /var/www/redmine/plugin_assets/redmine_latex_mathjax/
+3. Restart Redmine
 
 Login to Redmine and go to Administration->Plugins. You should now see 'Redmine AdvancedImage'. Enjoy!
 
