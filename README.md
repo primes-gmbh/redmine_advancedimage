@@ -4,7 +4,7 @@ Redmine AdvancedImage Macro Plugin
 This plugin provides a macro to display images with subtitles and anotation capabilites and
 a macro to reference an image from within a wiki page.
 Also included are macros to display tables with headers and formulas with labels as well as capabilities to link to each of them.
-Formula support requires the redmine_latex_mathjax (https://github.com/5inf/redmine_latex_mathjax) or a similar plugin to be installed.
+Formula support requires the redmine_latex_mathjax (https://github.com/primes-gmbh/redmine_latex_mathjax) or a similar plugin to be installed.
 
 Requirements
 ------------
